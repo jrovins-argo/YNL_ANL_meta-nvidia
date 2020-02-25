@@ -8,11 +8,11 @@ SRC_URI = " \
 "
 
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://README.md;md5=ecb4629295de7c908bb3717e01494be7"
+LIC_FILES_CHKSUM = "file://README.md;md5=df8344da8609751b866fee697e1399b9"
 
 S = "${WORKDIR}/git"
 
-DEPENDS = "python libx11 libxext glproto"
+DEPENDS = "python libx11 libxext xorgproto"
 
 inherit autotools pkgconfig
 
