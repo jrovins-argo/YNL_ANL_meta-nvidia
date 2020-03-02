@@ -8,7 +8,7 @@ NVIDIA_SRC = "${WORKDIR}/${NVIDIA_ARCHIVE_NAME}"
 # To revert to the standard nvidia path, use:
 # https://us.download.nvidia.com/XFree86/Linux-${TARGET_ARCH}/${PV}/${NVIDIA_ARCHIVE_NAME}.run 
 # The tesla path looks like this:
-# https://us.download.nvidia.com/tesla/${PV}/${NVIDIA_ARCHIVE_NAME}.run \
+# https://us.download.nvidia.com/tesla/${PV}/${NVIDIA_ARCHIVE_NAME}.run
 
 
 SRC_URI = " \
